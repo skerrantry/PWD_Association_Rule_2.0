@@ -1,0 +1,67 @@
+{
+  "status": "host-definition superseded by explicit author instruction; statistical protocol pending linkage QA",
+  "seed": 20261110,
+  "negative_record_sampling_probability": 0.005,
+  "main_scope": "author confirms all source analysis units were designated as susceptible subcompartments by forestry management departments",
+  "code_note": "No species-code-based redefinition or exclusion permitted.",
+  "endpoint": "first occurrence recorded in available database, not proven biological first infection",
+  "controls": "not-yet-recorded records before first event; event included once; later years excluded",
+  "source_repair": "physical source FID; existing unique linkage or normalized administrative/spatial linkage; multi-polygon overlap map separately audited",
+  "unmatched": "Separate linkage-quality analysis; no blanket county exclusion adopted.",
+  "main_discovery": "same class-association-rule logic, 2--4 conditions, all events and Bernoulli 0.005 negative records per province-year; exact realized denominators exported",
+  "tests": "actual discovery records for Fisher and BH; full eligible-risk records for effect estimates; no weighted pseudo-count exact tests",
+  "candidate_positive": 100,
+  "strict_positive": 300,
+  "strict_discovery_coverage": 1000,
+  "strict_lift": 3,
+  "strict_OR": 3,
+  "strict_q": 0.01,
+  "folds": {
+    "1": [
+      2001,
+      2006,
+      2011,
+      2016
+    ],
+    "2": [
+      2002,
+      2007,
+      2012,
+      2017
+    ],
+    "3": [
+      2003,
+      2008,
+      2013,
+      2018
+    ],
+    "4": [
+      2004,
+      2009,
+      2014,
+      2019
+    ],
+    "5": [
+      2005,
+      2010,
+      2015,
+      2020
+    ]
+  },
+  "stability": {
+    "min_annual_coverage": 1000,
+    "min_expected_events": 5,
+    "min_years": 10,
+    "min_five_year_periods": 3,
+    "annual_strong_lift": 1.5,
+    "min_annual_positive": 10,
+    "min_consistency": 0.8,
+    "min_discovery_and_validation_folds": 4
+  },
+  "limitations": [
+    "raw coverage is not a complete surveillance census",
+    "restriction changes target population",
+    "static stand and road layers",
+    "spatial point approximation must be distinguished from polygon-centroid computation"
+  ]
+}

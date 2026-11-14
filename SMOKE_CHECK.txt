@@ -1,0 +1,4 @@
+[2026-11-11 12:36:13] synthetic: prefix 1/2, candidates=1
+[2026-11-11 12:36:13] synthetic: 1 exact candidates; scoring Fisher/BH
+[2026-11-11 12:36:13] {"name": "synthetic", "train_years": [2018], "transactions": 10000, "positive_transactions": 1000, "frequent_items": 2, "candidates": 1, "strict_rules": 1, "strict_families": 1, "dropped_length4": 0, "elapsed_seconds": 0.022999286651611328, "source": "synthetic demonstration only", "fisher_alternative": "greater", "BH_test_count": 1, "finite_log_pq": true}
+PASS: sampled discovery, exact count recovery, family mapping, effect denominator, Fisher upper tail and repeatable hash. Synthetic outputs: temporary demonstration directory

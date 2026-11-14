@@ -1,0 +1,8 @@
+{
+  "raw_backup_root": "/path/to/private/archived-data",
+  "raw_csv": "/path/to/private/archived-data/Sub_Pine_All_AssociationRules_2001_2020.csv",
+  "numeric_cache": "/path/to/private/numeric-cache",
+  "work_dir": "./run",
+  "output_dir": "./outputs",
+  "source_units": 13189909
+}

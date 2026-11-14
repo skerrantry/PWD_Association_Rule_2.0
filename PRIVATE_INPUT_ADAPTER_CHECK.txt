@@ -1,0 +1,1 @@
+PASS: portable adapter reads final repaired inputs and reproduces full risk denominators for 2001 and 2020; no mining rerun.

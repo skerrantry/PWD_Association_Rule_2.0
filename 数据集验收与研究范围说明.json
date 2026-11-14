@@ -1,0 +1,17 @@
+{
+  "source_polygon_records": 13189909,
+  "unique_source_keys": true,
+  "prebaseline_records": 216,
+  "main_risk_records": 262621234,
+  "main_events": 247303,
+  "uncensored_risk_records": 262684585,
+  "uncensored_events": 249576,
+  "units_with_linkage_censoring": 15574,
+  "host_code_exclusions": 0,
+  "host_definition": "author-designated susceptible management units, unchanged",
+  "linkage_quality": "15,574 potential-overlap units censored from first ambiguous-source year; sensitivity retains all years",
+  "first_event_rule": "negative before first recorded year, positive once at first recorded year, excluded thereafter; pre-2001 events excluded throughout",
+  "dynamic_pressure": "updated reference-point-based area-weighted spatial/time decay, explicitly distinguished from original polygon centroids",
+  "shared_boundary": "affected-target complete topology recomputation, local AEQD, 1m grid; all values finite and nonnegative",
+  "caveat": "no-overlap source events remain outside current harmonized footprint; no fabricated linkage or covariate assignment; geographic coverage limitations remain"
+}

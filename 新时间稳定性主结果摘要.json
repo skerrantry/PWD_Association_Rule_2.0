@@ -1,0 +1,29 @@
+{
+  "main_strict_rule_versions": 19935,
+  "main_unique_families": 10972,
+  "temporal_counts": {
+    "not_persistent": 9493,
+    "strong_internal_temporal": 590,
+    "direction_consistent": 534,
+    "insufficient_coverage": 355
+  },
+  "spatial_temporal_crosstab": {
+    "direction_consistent": {
+      "broad_multi_province": 233,
+      "spatially_concentrated": 301
+    },
+    "insufficient_coverage": {
+      "broad_multi_province": 271,
+      "spatially_concentrated": 84
+    },
+    "not_persistent": {
+      "broad_multi_province": 2771,
+      "spatially_concentrated": 6722
+    },
+    "strong_internal_temporal": {
+      "broad_multi_province": 439,
+      "spatially_concentrated": 151
+    }
+  },
+  "interpretation": "internal robustness after full-data selection; not independent external validation"
+}
